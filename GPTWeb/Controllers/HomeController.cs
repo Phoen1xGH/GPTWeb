@@ -30,7 +30,7 @@ namespace GPTWeb.Controllers
 		public ActionResult ChatGPTResponse(string userMessage) 
         {
 	        _gptMessage.Append($"User: {userMessage}\nChatGPT: ");
-	        string apiKey = "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";
+	        string apiKey = "your-secret-key";
 	        // адрес api для взаимодействия с чат-ботом
 	        string endpoint = "https://api.openai.com/v1/chat/completions";
 	        // набор соообщений диалога с чат-ботом
